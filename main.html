@@ -387,8 +387,8 @@
     </div>
     <script>
       const video = document.getElementById("video");
-      const newWidth = 1000;
-      const newHeight = 1000;
+      const newWidth = window.innerWidth;
+      const newHeight = window.innerHeight;
 
       navigator.mediaDevices
         .getUserMedia({
